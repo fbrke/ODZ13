@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    string filename = "docs/phone.dat"; // файл с базой данных
+    string filename = "docs/phone.dat"; 
     ifstream file(filename);
     if (!file) {
         cout << "Error " << filename << endl;
